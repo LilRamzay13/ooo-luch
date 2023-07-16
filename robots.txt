@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /resourses/
+Disallow: /js/
+Disallow: /css/
+Disallow: mail.php
+
+
+User-agent: Googlebot
+Allow: /
+Disallow: mail.php
+
+
+User-agent: Yandex
+Allow: /resourses/
+Disallow: /js/
+Disallow: /css/
+Disallow: mail.php
