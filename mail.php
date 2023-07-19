@@ -13,13 +13,13 @@ $phone = $_POST['user_phone'];
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'mail.nic.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'support@luch25.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = '25525225Luch'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'support@luch25.ru'; 
+$mail->Password = '25525225Luch'; 
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('support@luch25.ru'); // от кого будет уходить письмо?
-$mail->addAddress('niks97@inbox.ru');     // Кому будет уходить письмо 
+$mail->setFrom('support@luch25.ru'); 
+$mail->addAddress('niks97@inbox.ru');     
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
